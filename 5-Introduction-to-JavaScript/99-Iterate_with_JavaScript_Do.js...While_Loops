@@ -1,0 +1,11 @@
+// Do-While's, Do pass through loop while i is less than 10
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+  myArray.push(i);
+  i++;
+} while (i < 10);
+console.log(i);
