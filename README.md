@@ -4,36 +4,39 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions in general terms/steps.
 
-put your answer here
+When a client requests to get https://www.techtonic.com/ over the internet, the server checks to see if it exists and if it does, renders the page.
+
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-put your answer here
+Client makes a request, server searches for the request, client waits, server either sends the request or doesn't, if server does, the web browser renders the request in HTML for the client to view.
 
 ## What code is rendered in the browser?
 
-put your answer here
+HTML code is rendered in the browser.
 
 ## What is the server-side code’s main function?
 
-put your answer here
+Server side code processes web requests and sends pages to clients.
 
 ## What is the client-side code’s main function?
 
-put your answer here
+Client side code displays HTML in a web browser.
 
 ## What is runtime?
 
-put your answer here
+Runtime is the duration an applications software is executed, including code not written by you that is crucial for the code to work.
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+There is one instance of client-side assets on the client browser.
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+This depends on how large, but to start it would be the 1 server.
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+Many references say this number can be thousands, but ultimately dependent on the need of the database/s.
+
+** I did not find a ton of information on instances in general, but specific instances within databases (SQL,etc..)
